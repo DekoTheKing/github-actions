@@ -1,0 +1,57 @@
+input
+{
+    background-color: #F8F6F5;
+    color:#000000;
+}
+
+#root > div:nth-child(2) {
+    padding-top: 150px;
+}
+#root > div:nth-child(2) > form > input
+{
+    color:white;
+    border: 100px;
+    border-color: red;
+    background-color: #0d718d;
+}
+form
+{
+  background: #F8F6F5;
+  border-radius: 10px;
+  padding: 40px;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  
+}
+#root > div:nth-child(2) > form > div:nth-child(n) > div
+{
+    color:red;
+}
+input {
+    display: block;
+    margin: 5px 0 10px;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+button {
+    background: #0d718d;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #064758;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+
+#form_text{
+    color: gray;
+    font-size: medium;
+}

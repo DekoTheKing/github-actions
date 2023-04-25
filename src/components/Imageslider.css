@@ -1,0 +1,29 @@
+/* .slide-container{
+    height: 1000px;
+    height: 780px;
+    
+} */
+/* .each-slide
+{
+    
+    
+} */
+
+.images
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-Y: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.slide-container > div > div > button:nth-child(n)
+{
+    padding: 0px;
+}
+
+.slide-container{
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    z-index: -1;
+}

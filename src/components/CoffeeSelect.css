@@ -1,0 +1,14 @@
+.basic-single{
+    padding-left: 55px;
+    padding-right: 55px;
+    flex-direction: column;
+    display: flex
+    ;}
+    .select{
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+
+    .select__menu {
+        width: 1400px !important;
+    }

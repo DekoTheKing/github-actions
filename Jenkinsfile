@@ -15,7 +15,7 @@ pipeline {
       steps {
         bat 'npm install --legacy-peer-deps'
         //  sh '<<Build Command>>'
-        // bat 'npm start'
+         bat 'npm start'
       }
     }  
     
